@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# nextjs lyne app
 
-## Getting Started
+## Notwendige Dokumentationen
+* [Design System Lyne - Dokumentation](https://lyne-storybook.app.sbb.ch/?path=/docs/introduction-getting-started--docs)
+* [DummyJSON - Dokumenation](https://dummyjson.com/docs)
 
-First, run the development server:
+## Aufgaben
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Wähle einen oder mehrere Aufgabenblöcke zur Bearbeitung.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+API
+1) Binde die Products API von DummyJSON ein, um das Grid mit Cards zu befüllen. Beachte das nur 8 Produkte gerendert werden.
+   * Lade die Produkte im Server.
+   * Lade die Produkte im Client. Füge ein Loading-Skeleton ein, während dessen noch nicht alle Produkte geladen wurden.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Hooks
+1) Erstelle einen custom Hook der einen Zustand im LocalStorage des Browsers verwalten kann.
+1) Nutze den custom LocalStorage-Hook, um einen Badge an der Card zu setzen, wenn diese zuletzt geklickt wurde.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Zustände
+1) Erstelle einen Context zur Verwaltung des Anmeldezustands und nutze diesen in der AccountBar und dem Greeting. Nenne mögliche Alternativen zur Verwendung eines Contextes.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Hinweis
+* es können jegliche Bibliotheken deiner Wahl nachinstalliert werden
+* jegliche Dokumentation (aus dem Internet) kann verwendet werden
+* KI-Tools können verwendet werden, du musst allerdings den vorgeschlagen Code erklären können
